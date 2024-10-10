@@ -25,5 +25,29 @@ This project is a Disney Park Reservation System that allows users to make and m
 
 ### Steps
 1. **Clone the repository**:
-   ```bash
    git clone https://github.com/brettr7388/disney-park-reservation.git
+   cd disney-park-reservation
+2. Set up environment variables:
+   Create a .env file in the root directory and add your MongoDB URI and port configuration:
+    MONGO_URI=your-mongodb-uri
+    PORT=5001
+3. Install backend dependencies:
+   npm install
+4. Start the backend server:
+   npm start
+5. Navigate to the frontend:
+   cd client
+6. Install frontend dependecies
+   npm install
+7. Start the frontend server:
+   npm start
+8. Open the app in your browser:
+    Frontend:http://localhost:3000
+    Backend API: http://localhost:5001/api/reservations
+
+
+   
+
+
+
+
